@@ -1,0 +1,149 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: segoe ui;
+	background: url(../images/tech_circle.jpg) center center no-repeat;
+}
+h3{
+	text-transform: uppercase;
+}
+
+#cover{
+	/*background: url(../images/tech_circle.jpg) center center no-repeat;*/
+	background-size: cover;
+	color: white;
+	display: flex;
+	text-align: center;
+	align-items: top;
+	flex-direction: column;
+
+	margin-top: 50px;
+}
+
+.cover-cap{
+	width: 100%;
+}
+
+.navigation{
+	margin-top: 15px;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.time-box{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+}
+.time{
+	font-size: 72px;
+}
+
+.title a{
+	font-size: 36px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: -5px;
+}
+
+.inline-form{
+	display: inline-block;
+	float: right;
+	margin-top: 0;
+}
+ 
+.input{
+  display: inline;
+   width: 200px;
+   vertical-align: middle;
+  height: 22px;
+  padding: 5px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.input::placeholder{
+	color: white;
+}
+
+.btn{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  
+}
+
+.btn-login{
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  width: 80px;
+}
+
+.btn-join{
+	color: #fff;
+	background-color: #00466A;
+	width: 216px;
+	height: 61px;
+	font-size: 48px;
+
+}
+
+.join{
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.btn-container{
+	display: flex;
+	justify-content: center;
+
+}
+@media (min-width:320px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	/* smartphones, iPhone, portrait 480x320 phones */
+
+
+}
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	/* smartphones, iPhone, portrait 480x320 phones */
+
+
+}
+@media (min-width:641px)  {  /*portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones*/  
+	
+}
+
+@media (min-width:767px)  { /*minor break point */
+
+}
+
+@media (min-width:781px)  { /*minor break point */
+
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
